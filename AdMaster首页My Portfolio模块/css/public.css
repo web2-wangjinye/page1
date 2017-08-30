@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #252122;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header h1{
+    text-align: center;
+    padding: 40px 0;
+}
+nav ul{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background: #231f20;*/
+    padding: 10px 0;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 0 18px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 8px;
+    color: #5d5d5d;
+    /*background: #f0f5f6;*/
+
+}
+nav ul li a:hover{
+    /*background: #d52349;*/
+    color: red;
+}
+#imgLogo{
+    display: none;
+}
+.row{
+    display: flex;
+
+}
+.row1{
+    justify-content: center;
+    margin: 50px 10%;
+}
+.row2{
+    flex-direction: column;
+    margin-bottom: 50px;
+
+
+}
+.row2 ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.row2 .btn{
+    display: flex;
+    justify-content: center;
+}
+.row2 .btn a{
+    width: 200px;
+    display: inline-block;
+    background: #252122;
+    color: #fff;
+    text-align: center;
+    margin: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.row2 .btn a:hover{
+    background: #d52349;
+}
+
+.row3{
+    flex-direction: column;
+}
+.row3 h2{
+    text-align: center;
+    margin: 20px 0;
+}
+.row3 ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.row3 ul li{
+    background: #fff;
+    padding: 20px;
+    margin-top: 40px;
+}
+.row3 ul li h3{
+    line-height: 30px;
+}
+.row3 ul li img{
+    width: 100%;
+	
+}
+.row3 ul li p{
+    width: 288px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 24px;
+}
+.row3 ul li a{
+    display: inline-block;
+    background: #252122;
+    border-radius: 8px;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 20px;
+    margin: 20px;
+    font-weight: bold;
+
+}
+.row3 ul li a:hover{
+	background: #d52349;
+}
+.row3 ul li img{
+	box-shadow:2px 3px 2px #ccc;
+	border-radius:5px;
+	}
+
+footer{
+    height: 120px;
+    background: #211d1e;
+    color: #fff;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
